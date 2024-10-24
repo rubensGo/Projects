@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class calendario {
 public static void main(String[] args) {
     // perguntar se quer um calendario
-    
+    System.err.println(" ");
     Scanner calendario = new Scanner(System.in);
     System.out.println("Quer um calendario? (S/N)");
     String calendario1 = calendario.nextLine();

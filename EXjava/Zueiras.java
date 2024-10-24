@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Zueiras {
     public static void main(String[] args) {
+        
+        System.err.println(" ");
         //? Pedir se tem uma conta
         Scanner scanner = new Scanner(System.in);
         System.out.println("Tu possui uma conta? (S/N)");
