@@ -13,7 +13,7 @@ public class TesteJ {
     if (username.equals("timeP") && password.equals("topP")) {
       System.out.println("BEM VINDO "+ username);
     }else {
-      System.out.println("ACESSO NEGADO, TENTE NOVAMNTE!");
+      System.out.println("ACESSO NEGADO, TENTE NOVAMNTE");
     }
   }
 }
