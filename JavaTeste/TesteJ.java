@@ -1,4 +1,4 @@
-package Testes;
+package JavaTeste;
 
 public class TesteJ {
   public static void main(String[] args) {
