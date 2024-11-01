@@ -15,6 +15,7 @@ public class Escolar {
       String[] nomeAlunos = new String[9];
       Scanner aluno = new Scanner(System.in);
 
+      
       for (int i = 0; i < 8; i++) {
         System.out.println("Nome do Aluno "+ (i+ 1));
         nomeAlunos[i] = aluno.nextLine();
@@ -37,6 +38,8 @@ public class Escolar {
       for (int i = 0; i < 5; i++) {
         System.out.println(nomeAlunos[i]);
       }
+      aluno.close();
+    diaDaSemana.close();
     }
   }
 }
