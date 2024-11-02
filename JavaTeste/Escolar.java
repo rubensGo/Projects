@@ -6,7 +6,7 @@ public class Escolar {
    * e imprime esses nomes
    */
   public static void main(String[] args) {
-    System.out.println(" ");
+    System.out.println("");
     System.out.println("Qual o dia da semana?");
     Scanner diaDaSemana = new Scanner(System.in);
     String day = diaDaSemana.nextLine();
