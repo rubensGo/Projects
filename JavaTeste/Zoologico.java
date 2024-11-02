@@ -40,6 +40,7 @@ public class Zoologico {
     System.out.println("A quantidade De Patas que Ele(a) tem: "+ patasDosAnimais[i]);
     System.out.println("Quantidade de macho: "+ macho);
     System.out.println("Quantidade De Femeas: "+ femea);
+    System.out.println(" ");
     }
   }
 }
