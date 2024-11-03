@@ -14,6 +14,7 @@ public class Zoologico {
     int macho = 0;
     int femea = 0;
 
+    
     String[] nomeDosAnimais = new String[quantidade];
     int[] patasDosAnimais = new int[quantidade];
     String[] generoAnimais = new String[quantidade];
@@ -42,5 +43,6 @@ public class Zoologico {
     System.out.println("Quantidade De Femeas: "+ femea);
     System.out.println(" ");
     }
+    quantidad.close();
   }
 }
