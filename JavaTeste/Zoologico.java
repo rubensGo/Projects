@@ -1,61 +1,71 @@
 import java.util.Scanner;
 
 public class Zoologico {
-  /*
-   * Cria uma programa que armazena a quantidade de pernas que tem um animal.
-   * e também armazena o nome do animal.
-   * imprima essas informaçoes.
-   */
-  /* --- Atualização do Sistema ---
-   * mostre qual é maior quantidade de patas ou olhos.
-   * e cria uma tabela que so aceitara os animais da tabela EX: (cão) se eu colocar gato, o programa nao pode aceitar. 
-   * cada posiçao da tabela deve ter um animal diferente.
-   */
-  public static void main(String[] args) {
-    System.out.println(" ");
-    System.out.print("Quantos animais você vai registar? ");
-    Scanner quantidad = new Scanner(System.in);
-    int quantidade = quantidad.nextInt();
 
-    String[][] nomeDosAnimaisEhGenero = new String[2][quantidade];
-    int[][] patasEhOlhos = new int[2][quantidade];
-    
-    for (int i =0;i < quantidade; i++) {
-      System.out.println("""
-          -------------------------------
-          |[Gato] | [girafa] | [Cavalo] |
-          |[Pato] | [Elefante] | [Cobra]|
-          -------------------------------""");
+    public static void main(String[] args) {
+        // Scanner deve ser criado uma vez no início
+        Scanner scanner = new Scanner(System.in);
 
-      System.out.println("Escreva o Nome Do Animal: ");
-      Scanner nome = new Scanner(System.in); 
-      nomeDosAnimaisEhGenero[0][i] = nome.nextLine();
-      if (nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("gato") || nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("girafa")
-      || nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("cavalo") || nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("pato")
-      || nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("elefante") || nomeDosAnimaisEhGenero[0][i].equalsIgnoreCase("cobra")) {
-      
-      System.out.println("Qual é o genero [M/F] ");
-      Scanner generoScam = new Scanner(System.in);
-      nomeDosAnimaisEhGenero[1][i] = generoScam.nextLine();
+        System.out.println("Quantos animais você vai registrar?");
+        int quantidade = scanner.nextInt();
+        scanner.nextLine();  // Consumir a quebra de linha após nextInt()
 
-      System.out.print("Quantas Patas ele(a) Tem? ");
-      Scanner quantidadeDePatas = new Scanner(System.in);
-      patasEhOlhos[0][i] = quantidadeDePatas.nextInt();
+        // Definir arrays para armazenar informações dos animais
+        String[][] nomeDosAnimaisEhGenero = new String[2][quantidade]; // [0] = nomes, [1] = gêneros
+        int[][] patasEhOlhos = new int[2][quantidade]; // [0] = patas, [1] = olhos
 
-      System.out.println("Quantos Olhos ele(a) Tem? ");
-      Scanner quantidadeDeOlhos = new Scanner(System.in);
-      patasEhOlhos[1][i] = quantidadeDeOlhos.nextInt();
-    
-      if (nomeDosAnimaisEhGenero[1][i].equalsIgnoreCase("M")) {
-        System.out.println("O animal "+nomeDosAnimaisEhGenero[0][i]+" é macho");
-      } else {
-        System.out.println("O animal "+nomeDosAnimaisEhGenero[0][i]+" é femea");
-      }
-      System.out.println("A quantidade De Patas que Ele(a) tem: "+ patasEhOlhos[0][i]);
-      System.out.println("A quantidade De Olhos que Ele(a) tem: "+ patasEhOlhos[1][i]);
-      System.out.println(" ");
-      }
+        // Definir lista de animais permitidos
+        String[] animaisPermitidos = {"gato", "girafa", "cavalo", "pato", "elefante", "cobra"};
+
+        // Laço para registrar os animais
+        for (int i = 0; i < quantidade; i++) {
+            System.out.println("\n-------------------------------");
+            System.out.println("| [Gato] | [Girafa] | [Cavalo] |");
+            System.out.println("| [Pato] | [Elefante] | [Cobra] |");
+            System.out.println("-------------------------------");
+
+            // Perguntar o nome do animal
+            System.out.print("Escreva o Nome do Animal: ");
+            String nomeAnimal = scanner.nextLine().toLowerCase();  // Garantir que o nome seja em minúsculas
+
+            // Verificar se o animal está na lista de animais permitidos
+            boolean animalValido = false;
+            for (String animal : animaisPermitidos) {
+                if (nomeAnimal.equals(animal)) {
+                    animalValido = true;
+                    break;
+                }
+            }
+
+            if (animalValido) {
+                // Registrar o nome e o gênero
+                nomeDosAnimaisEhGenero[0][i] = nomeAnimal;
+
+                System.out.print("Qual é o gênero [M/F]: ");
+                nomeDosAnimaisEhGenero[1][i] = scanner.nextLine();
+
+                // Registrar a quantidade de patas e olhos
+                System.out.print("Quantas patas ele(a) tem? ");
+                patasEhOlhos[0][i] = scanner.nextInt();
+
+                System.out.print("Quantos olhos ele(a) tem? ");
+                patasEhOlhos[1][i] = scanner.nextInt();
+                scanner.nextLine(); // Consumir a quebra de linha
+
+                // Exibir informações sobre o animal
+                if (nomeDosAnimaisEhGenero[1][i].equalsIgnoreCase("M")) {
+                    System.out.println("O animal " + nomeDosAnimaisEhGenero[0][i] + " é macho.");
+                } else {
+                    System.out.println("O animal " + nomeDosAnimaisEhGenero[0][i] + " é fêmea.");
+                }
+                System.out.println("Quantidade de patas: " + patasEhOlhos[0][i]);
+                System.out.println("Quantidade de olhos: " + patasEhOlhos[1][i]);
+            } else {
+                System.out.println("Esse animal não é permitido no zoológico.");
+            }
+        }
+
+        // Fechar o scanner
+        scanner.close();
     }
-    quantidad.close();
-  }
 }
