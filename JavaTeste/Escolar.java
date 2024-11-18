@@ -1,8 +1,10 @@
 import java.util.Scanner;
 import java.time.LocalDate;
+
 public class Escolar {
-  /*Cria um programa que armazena os nomes dos (5 alunos) de uma turma
-    * mas na segunda vem todo mundo (8 alunos)
+  /*
+   * Cria um programa que armazena os nomes dos (5 alunos) de uma turma
+   * mas na segunda vem todo mundo (8 alunos)
    * e imprime esses nomes
    */
 
@@ -20,48 +22,47 @@ public class Escolar {
       String[][] nomeAlunosEhSobrenome = new String[2][9];
 
       for (int i = 0; i < 8; i++) {
-        System.out.println("Nome do Aluno "+ (i+ 1));
+        System.out.println("Nome do Aluno " + (i + 1));
         Scanner aluno = new Scanner(System.in);
         nomeAlunosEhSobrenome[0][i] = aluno.nextLine();
-        
-        System.out.println("Sobrenome do Aluno "+ (i+ 1));
+
+        System.out.println("Sobrenome do Aluno " + (i + 1));
         Scanner sobrenomeDoAluno = new Scanner(System.in);
         nomeAlunosEhSobrenome[1][i] = sobrenomeDoAluno.nextLine();
 
         String[][] gmailEhSenha = new String[2][9];
-        gmailEhSenha[0][i] = nomeAlunosEhSobrenome[0][i]+"-"+nomeAlunosEhSobrenome[1][i] + "@gmail.com";
+        gmailEhSenha[0][i] = nomeAlunosEhSobrenome[0][i] + "-" + nomeAlunosEhSobrenome[1][i] + "@gmail.com";
         gmailEhSenha[1][i] = nomeAlunosEhSobrenome[0][i] + ano;
 
-        System.out.println("Seu gmail "+ nomeAlunosEhSobrenome[0][i] + " eh este " + gmailEhSenha[0][i]);
+        System.out.println("Seu gmail " + nomeAlunosEhSobrenome[0][i] + " eh este " + gmailEhSenha[0][i]);
         System.out.println("e sua senha eh " + gmailEhSenha[1][i]);
-        if (i >=8) {
+        if (i >= 8) {
           System.out.println("Todas as conta dos alunos foram criadas");
         }
       }
-    }else {
+    } else {
 
       String[][] nomeAlunosEhSobrenome = new String[2][6];
       String[][] gmailEhSenha = new String[2][6];
 
-          for (int i = 0; i < 5; i++) {
-            System.out.println("Nome do Aluno "+ (i+ 1));
-            Scanner aluno = new Scanner(System.in);
-            nomeAlunosEhSobrenome[0][i] = aluno.nextLine();
+      for (int i = 0; i < 5; i++) {
+        System.out.println("Nome do Aluno " + (i + 1));
+        Scanner aluno = new Scanner(System.in);
+        nomeAlunosEhSobrenome[0][i] = aluno.nextLine();
 
-            System.out.println("Sobrenome do Aluno "+ (i+ 1));
-            Scanner sobrenomeDoAluno = new Scanner(System.in);
-            nomeAlunosEhSobrenome[1][i] = sobrenomeDoAluno.nextLine();
+        System.out.println("Sobrenome do Aluno " + (i + 1));
+        Scanner sobrenomeDoAluno = new Scanner(System.in);
+        nomeAlunosEhSobrenome[1][i] = sobrenomeDoAluno.nextLine();
 
-            gmailEhSenha[0][i] = nomeAlunosEhSobrenome[0][i]+"-"+nomeAlunosEhSobrenome[1][i] + "@gmail.com";
-            gmailEhSenha[1][i] = nomeAlunosEhSobrenome[0][i] + ano;
-            
-            System.out.println(nomeAlunosEhSobrenome[0][i]+ " Seu gmail e este " + gmailEhSenha[0][i]);
-            System.out.println(" e sua senha e " + gmailEhSenha[1][i]);
-            if (i == 5) {
-              System.out.println("Todas as conta dos alunos foram criadas");
-              }
+        gmailEhSenha[0][i] = nomeAlunosEhSobrenome[0][i] + "-" + nomeAlunosEhSobrenome[1][i] + "@gmail.com";
+        gmailEhSenha[1][i] = nomeAlunosEhSobrenome[0][i] + ano;
+
+        System.out.println(nomeAlunosEhSobrenome[0][i] + " Seu gmail e este " + gmailEhSenha[0][i]);
+        System.out.println(" e sua senha e " + gmailEhSenha[1][i]);
+        if (i == 5) {
+          System.out.println("Todas as conta dos alunos foram criadas");
+        }
       }
     }
   }
 }
-

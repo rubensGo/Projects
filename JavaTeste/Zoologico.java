@@ -8,14 +8,14 @@ public class Zoologico {
 
         System.out.println("Quantos animais você vai registrar?");
         int quantidade = scanner.nextInt();
-        scanner.nextLine();  // Consumir a quebra de linha após nextInt()
+        scanner.nextLine(); // Consumir a quebra de linha após nextInt()
 
         // Definir arrays para armazenar informações dos animais
         String[][] nomeDosAnimaisEhGenero = new String[2][quantidade]; // [0] = nomes, [1] = gêneros
         int[][] patasEhOlhos = new int[2][quantidade]; // [0] = patas, [1] = olhos
 
         // Definir lista de animais permitidos
-        String[] animaisPermitidos = {"gato", "girafa", "cavalo", "pato", "elefante", "cobra"};
+        String[] animaisPermitidos = { "gato", "girafa", "cavalo", "pato", "elefante", "cobra" };
 
         // Laço para registrar os animais
         for (int i = 0; i < quantidade; i++) {
@@ -26,7 +26,7 @@ public class Zoologico {
 
             // Perguntar o nome do animal
             System.out.print("Escreva o Nome do Animal: ");
-            String nomeAnimal = scanner.nextLine().toLowerCase();  // Garantir que o nome seja em minúsculas
+            String nomeAnimal = scanner.nextLine().toLowerCase(); // Garantir que o nome seja em minúsculas
 
             // Verificar se o animal está na lista de animais permitidos
             boolean animalValido = false;
