@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calcular",
+            "request": "launch",
+            "mainClass": "calcular",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "testeJava",
+            "request": "launch",
+            "mainClass": "testeJava",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Teste",
             "request": "launch",
             "mainClass": "TesteJava.Teste",
