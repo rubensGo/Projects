@@ -15,5 +15,6 @@
             "username": "root",
             "password": "352515"
         }
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
