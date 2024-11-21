@@ -3,16 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Cadastro de Usuário</title>
 </head>
 <body>
-    <h1>Insirir Dados no Banco de Dados</h1>
-    <form action="cadastrar" method="get">
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome">
-        <label for="email">E-mail:</label>
-        <input type="email" name="email" id="email">
-        <button type="submit">Enviar</button>
+    <h1>Cadastro de Usuário</h1>
+
+    <!-- Formulário para inserir dados -->
+    <form action="CadastroServlet" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Cadastrar">
     </form>
+
+    <h2>Usuários Cadastrados</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Lista de usuários será gerada aqui -->
+            <tr>
+                <td>1</td>
+                <td>João Silva</td>
+                <td>joao@email.com</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
