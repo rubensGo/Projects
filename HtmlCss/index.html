@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1>Reproduzindo audios</h1>
-    <source src="imagens/musiquinha.mp3" type="audio/mpeg">
-    <a href="imagens/musiquinha.mp3">clica aqui para baixar</a></p>
+    <h1>Insirir Dados no Banco de Dados</h1>
+    <form action="cadastrar" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
