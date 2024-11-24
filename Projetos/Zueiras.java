@@ -183,7 +183,7 @@ else {
                 if (username.equals("programmer_time") && password.equals("S2m9@lol90")) {
                     System.out.println("!BEM VINDO AOS COMANDOS ESCONDIDOS!");
                     System.out.println("[1] Roleta | [2] Video Misterioso | [3] Site Misterioso");
-                    int poderes = 4; // Seguiser usar um poder coloque esses valores (1,2,3,4)
+                    int poderes = 3; // Seguiser usar um poder coloque esses valores (1,2,3,4)
                     switch (poderes) {
                         case 1:
                         try{
@@ -205,7 +205,7 @@ else {
                         case 3:
                             System.out.println("Site Misterioso");
                             try{
-                                URI link = new URI("https://github.com/0rubens0");
+                                URI link = new URI("https://github.com/rubensGo");
                                 java.awt.Desktop.getDesktop().browse(link);
                             }catch(Exception erro){
                                 System.out.println(erro);
