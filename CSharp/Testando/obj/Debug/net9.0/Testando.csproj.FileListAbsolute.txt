@@ -1,0 +1,15 @@
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\bin\Debug\net9.0\Testando.exe
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\bin\Debug\net9.0\Testando.deps.json
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\bin\Debug\net9.0\Testando.runtimeconfig.json
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\bin\Debug\net9.0\Testando.dll
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\bin\Debug\net9.0\Testando.pdb
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.AssemblyInfoInputs.cache
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.AssemblyInfo.cs
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.csproj.CoreCompileInputs.cache
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.sourcelink.json
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.dll
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\refint\Testando.dll
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.pdb
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\Testando.genruntimeconfig.cache
+C:\Users\gemeos\Documents\Programas\Codigos\CSharp\Testando\obj\Debug\net9.0\ref\Testando.dll
