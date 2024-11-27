@@ -1,0 +1,15 @@
+C:\Users\gemeos\Documents\Codigos\TesteC#\bin\Debug\net9.0\TesteC#.exe
+C:\Users\gemeos\Documents\Codigos\TesteC#\bin\Debug\net9.0\TesteC#.deps.json
+C:\Users\gemeos\Documents\Codigos\TesteC#\bin\Debug\net9.0\TesteC#.runtimeconfig.json
+C:\Users\gemeos\Documents\Codigos\TesteC#\bin\Debug\net9.0\TesteC#.dll
+C:\Users\gemeos\Documents\Codigos\TesteC#\bin\Debug\net9.0\TesteC#.pdb
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.AssemblyInfoInputs.cache
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.AssemblyInfo.cs
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.csproj.CoreCompileInputs.cache
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.sourcelink.json
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.dll
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\refint\TesteC#.dll
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.pdb
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\TesteC#.genruntimeconfig.cache
+C:\Users\gemeos\Documents\Codigos\TesteC#\obj\Debug\net9.0\ref\TesteC#.dll
