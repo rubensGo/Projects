@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gemeos\\Documents\\Programas\\Codigos\\CSharp\\Testando\\Testando.csproj": {}
+    "C:\\Users\\gemeos\\Documents\\Codigos\\CSharp\\Testando\\Testando.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gemeos\\Documents\\Programas\\Codigos\\CSharp\\Testando\\Testando.csproj": {
+    "C:\\Users\\gemeos\\Documents\\Codigos\\CSharp\\Testando\\Testando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gemeos\\Documents\\Programas\\Codigos\\CSharp\\Testando\\Testando.csproj",
+        "projectUniqueName": "C:\\Users\\gemeos\\Documents\\Codigos\\CSharp\\Testando\\Testando.csproj",
         "projectName": "Testando",
-        "projectPath": "C:\\Users\\gemeos\\Documents\\Programas\\Codigos\\CSharp\\Testando\\Testando.csproj",
+        "projectPath": "C:\\Users\\gemeos\\Documents\\Codigos\\CSharp\\Testando\\Testando.csproj",
         "packagesPath": "C:\\Users\\gemeos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gemeos\\Documents\\Programas\\Codigos\\CSharp\\Testando\\obj\\",
+        "outputPath": "C:\\Users\\gemeos\\Documents\\Codigos\\CSharp\\Testando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gemeos\\AppData\\Roaming\\NuGet\\NuGet.Config"
