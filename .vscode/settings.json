@@ -1,5 +1,5 @@
 //!Ingnora!
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "dotnet.defaultSolution": "TesteC#.sln"
+    "dotnet.defaultSolution": "teste.sln"
 }

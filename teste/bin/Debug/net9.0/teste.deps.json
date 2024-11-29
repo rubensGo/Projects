@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "TesteC#/1.0.0": {
+      "teste/1.0.0": {
         "runtime": {
-          "TesteC#.dll": {}
+          "teste.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "TesteC#/1.0.0": {
+    "teste/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

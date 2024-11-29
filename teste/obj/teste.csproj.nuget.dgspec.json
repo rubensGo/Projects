@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gemeos\\Documents\\Codigos\\TesteC#\\TesteC#.csproj": {}
+    "C:\\Users\\gemeos\\Documents\\Codigos\\teste\\teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gemeos\\Documents\\Codigos\\TesteC#\\TesteC#.csproj": {
+    "C:\\Users\\gemeos\\Documents\\Codigos\\teste\\teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gemeos\\Documents\\Codigos\\TesteC#\\TesteC#.csproj",
-        "projectName": "TesteC#",
-        "projectPath": "C:\\Users\\gemeos\\Documents\\Codigos\\TesteC#\\TesteC#.csproj",
+        "projectUniqueName": "C:\\Users\\gemeos\\Documents\\Codigos\\teste\\teste.csproj",
+        "projectName": "teste",
+        "projectPath": "C:\\Users\\gemeos\\Documents\\Codigos\\teste\\teste.csproj",
         "packagesPath": "C:\\Users\\gemeos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gemeos\\Documents\\Codigos\\TesteC#\\obj\\",
+        "outputPath": "C:\\Users\\gemeos\\Documents\\Codigos\\teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gemeos\\AppData\\Roaming\\NuGet\\NuGet.Config"
