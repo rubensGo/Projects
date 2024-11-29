@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class CriarConta {
+
     public static void main(String[] args) {
 
         //Pedir se tem uma conta
