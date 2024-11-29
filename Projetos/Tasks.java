@@ -21,15 +21,14 @@ public class Tasks {
             Scanner sc = new Scanner(System.in);
             int escolha = sc.nextInt();
 
-            
             switch (escolha) {
                 case 1:
                     Scanner tasksAdd = new Scanner(System.in);
-                    //String[] nameTasks = new String[quantidadeDeOpcoes];
-                    
+                    // String[] nameTasks = new String[quantidadeDeOpcoes];
+
                     if (quantidadeDeOpcoes > 0) {
                         for (int i = 0; i < quantidadeDeOpcoes; i++) {
-                            System.out.println("Add to "+(i+1) +"st tasks");
+                            System.out.println("Add to " + (i + 1) + "st tasks");
                             nameTasks[i] = tasksAdd.nextLine();
                             System.out.println(" ");
                         }
@@ -46,27 +45,28 @@ public class Tasks {
 
                     int removidas = 0; // Contador de tarefas removidas
                     for (int i = 0; i < quantidadeDeOpcoes; i++) {
-                        if (removidas >= quantidadeDeRemocoes) break; // Sai do loop se já removeu o suficiente
+                        if (removidas >= quantidadeDeRemocoes)
+                            break; // Sai do loop se já removeu o suficiente
                         if (nameTasks[i] != null) {
                             if (quantidadeDeRemocoes > quantidadeDeOpcoes) {
                                 System.out.println("Oops you tried to remove things that were not created");
                                 break;
-                            }else {
-                            System.out.println("Task removed " + (i + 1) + ": " + nameTasks[i]);
-                            System.out.println(" ");
-                            nameTasks[i] = null; // Remove a tarefa
-                            removidas++;
+                            } else {
+                                System.out.println("Task removed " + (i + 1) + ": " + nameTasks[i]);
+                                System.out.println(" ");
+                                nameTasks[i] = null; // Remove a tarefa
+                                removidas++;
                             }
+                        }
                     }
-                }
                     break;
                 case 3:
                     boolean hasTasks = false;
                     System.out.println("List tasks:");
                     for (int i = 0; i < quantidadeDeOpcoes; i++) {
                         if (nameTasks[i] != null) {
-                        System.out.println("Task " + (i + 1) + ": " + nameTasks[i]);
-                        hasTasks = true;
+                            System.out.println("Task " + (i + 1) + ": " + nameTasks[i]);
+                            hasTasks = true;
                         }
                     }
                     if (!hasTasks) {
@@ -82,7 +82,7 @@ public class Tasks {
                 default:
                     System.out.println("Invalid option");
                     break;
-            
+
             }
         }
     }

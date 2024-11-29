@@ -1,4 +1,4 @@
-package Projetos;
+
 import java.net.URI;
 import java.util.Scanner;
 
@@ -53,20 +53,20 @@ public class Zueiras {
                 System.out.println("Senha invalida");
             }
 
-            //mostrando a conta criada
+            // mostrando a conta criada
             System.out.println("Conta Criada Com Sucesso");
             Scanner querlogar = new Scanner(System.in);
 
-            // pedindo para logar a conta
+            //? pedindo para logar a conta
             System.out.println("Deseja logar? (S/N)");
             String logar = querlogar.nextLine();
 
-            // se nao quiser logar
+            //! se nao quiser logar
             if (logar.equals("N") || logar.equals("n")) {
                 System.out.println("Conta não Logada");
             }
 //lol90
-            // se quiser logar
+            //? se quiser logar
             if (logar.equals("s") || logar.equals( "S")) {
                 System.out.println("Degite seu username: ");
                 Scanner username2 = new Scanner(System.in);
