@@ -223,6 +223,7 @@ else {
                                 java.awt.Desktop.getDesktop().browse(link);
                             }catch(Exception erro){
                                 System.out.println(erro);
+                                System.out.println("Erro 404");
                             }
                         }
                 }
