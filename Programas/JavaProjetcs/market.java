@@ -1,5 +1,3 @@
-package JavaProjetcs;
-
 import java.util.Scanner;
 
 public class market {
