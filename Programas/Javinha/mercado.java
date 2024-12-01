@@ -26,7 +26,6 @@ public class mercado {
                 4. voltar para a prateleira
                 5. ver todos os produtos do carrinho
                 6. finalizar compras
-                7. sair
             """);
             System.out.print("Escolha uma opcao: ");
             Scanner opçoes = new Scanner(System.in);
@@ -186,11 +185,6 @@ public class mercado {
                         }
                     }
                     break;
-
-                case 7://! opçao de sair
-                    System.exit(0);
-                    break;
-
                 case 6: //! opção de finalizar compras
                 double total = 0;
                 System.out.println("Finalizando compras...");
@@ -204,6 +198,7 @@ public class mercado {
                             if (produtoNoCarrinho.equalsIgnoreCase(produtoDisp[j])) {
                                 total += precos[j];
                                 System.out.println(produtoNoCarrinho + " - R$ " + precos[j]);
+                                System.exit(0);
                                 break;
                             }
                         }
@@ -212,6 +207,7 @@ public class mercado {
                             if (produtoNoCarrinho.equalsIgnoreCase(produtosDisp2[j])) {
                                 total += precos2[j];
                                 System.out.println(produtoNoCarrinho + " - R$ " + precos2[j]);
+                                System.exit(0);
                                 break;
                             }
                         }
@@ -220,6 +216,7 @@ public class mercado {
                             if (produtoNoCarrinho.equalsIgnoreCase(produtosDisp3[j])) {
                                 total += precos3[j];
                                 System.out.println(produtoNoCarrinho + " - R$ " + precos3[j]);
+                                System.exit(0);
                                 break;
                             }
                         }
