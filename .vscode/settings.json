@@ -1,5 +1,8 @@
 //!Ingnora!
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "dotnet.defaultSolution": "teste.sln"
+    "dotnet.defaultSolution": "teste.sln",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+
 }
