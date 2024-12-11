@@ -1,7 +1,9 @@
 
-public class teste {
+import javax.swing.JOptionPane;
 
-    public static void main(String[] args) {
+public class teste {
+        public static void main(String[] args) {
+            
         
     }
 }
