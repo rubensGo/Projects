@@ -5,15 +5,15 @@ import java.text.Normalizer;
 
 public class totalVowels {
     //Método
-    public String Palavra() {
-        String palavra = JOptionPane.showInputDialog("digite uma palavra");
-        JOptionPane.showMessageDialog(null, "A palavra digitada foi: " + palavra);
-        String vogais = "O total de Volgais é: " + Contador_de_Vogais(palavra);
+    public String Words() {
+        String palavra = JOptionPane.showInputDialog("Enter a word");
+        JOptionPane.showMessageDialog(null, "The word entered was: " + palavra);
+        String vogais = "he total number of vowels is: " + Vowel_Counter(palavra);
         JOptionPane.showMessageDialog(null, vogais);
         return vogais;
 
     }
-    public int Contador_de_Vogais(String palavra) {
+    public int Vowel_Counter(String palavra) {
         palavra = Normalizer.normalize(palavra, Normalizer.Form.NFD).replaceAll("[\\p{M}]", "");
         int contador = 0;
 
@@ -26,7 +26,7 @@ public class totalVowels {
     }
     public static void main(String[] args) {
         totalVowels palavra = new totalVowels();
-        String palavra1 = palavra.Palavra();
-        palavra.Contador_de_Vogais(palavra1);
+        String palavra1 = palavra.Words();
+        palavra.Vowel_Counter(palavra1);
     }
 }
