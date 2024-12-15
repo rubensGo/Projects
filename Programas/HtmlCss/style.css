@@ -1,9 +1,18 @@
 h1 {
+    text-emphasis: bold;
+    text-align: justify;
     text-align: center;
     color: red;
     background-color: black;
 }
 body {
-    background-color: gray;
-    
+    background-image: url("imagens/0f10d1cb510b0e33d704ec84f6ab74f8.jpg");
+    background-position: 0px -100px;
+}
+h2 {
+    color: red;
+}
+small {
+    color: red;
+    text-align: unset;
 }
