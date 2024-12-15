@@ -1,5 +1,4 @@
-//começei a estudar POO por isso tem esse arquivo
-
+import javax.swing.JOptionPane;
 
 public class TesteObj {
 
