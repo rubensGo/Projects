@@ -1,6 +1,6 @@
+
 import javax.swing.JOptionPane;
 
-public class TesteObj {
+public class TesteObj implements InterfaceTeste {
 
-    
 }
