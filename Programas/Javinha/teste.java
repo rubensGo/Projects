@@ -1,9 +1,13 @@
+// !classe Main!
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class teste {
+
     public static void main(String[] args) {
-        // !classe Main!
-        TesteObj obj = new TesteObj();
+        TesteObj obj = new TesteObj("Javinha", "Rubens Golfetto", 3);
+        obj.abrir();
+
+        obj.fechar();
     }
 }
